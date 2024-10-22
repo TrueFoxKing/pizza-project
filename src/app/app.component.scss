@@ -1,0 +1,403 @@
+
+.main {
+  padding: 132px 0 161px 0;
+}
+
+.main .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-info {
+  max-width: 622px;
+}
+
+.main-info h1 {
+  font-size: 45px;
+  font-family: MullerExtraBold, sans-serif;
+  line-height: 1;
+}
+
+.double-title {
+  color: rgb(185, 145, 80);
+}
+
+.double-title span {
+  color: #ffaf18;
+}
+
+.main-advantages {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantage {
+  max-width: 306px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-between;
+}
+
+.advantage-text {
+  margin-left: 16px;
+}
+
+.advantage-title {
+  font-size: 16px;
+  font-family: MullerExtraBold, sans-serif;
+  color: rgb(255, 175, 24);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantage-description {
+  font-size: 16px;
+  color: rgb(185, 145, 80);
+  margin-bottom: 47px;
+}
+
+.main-action {
+  margin-top: 13px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: rgb(255, 175, 24);
+  width: 224px;
+  height: 60px;
+  padding: 22px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: MullerBold, sans-serif;
+  color: rgb(56, 36, 0);
+  text-decoration: none;
+  text-align: center;
+}
+
+.main-image {
+  max-width: 100%;
+}
+
+.products {
+  padding: 0 0 120px 0;
+}
+
+.products-title {
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: MullerBold, sans-serif;
+  color: rgb(189, 152, 92);
+  text-align: center;
+}
+
+.products-items {
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 282px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+  text-align: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  margin-top: 24px;
+}
+
+.product-image {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-title {
+  font-size: 18px;
+  font-family: MullerBold, sans-serif;
+  color: rgb(56, 36, 0);
+}
+
+.product-text {
+  font-size: 14px;
+  color: rgb(24, 26, 26);
+  line-height: 1.286;
+  height: 49px;
+  margin: 14px 0 15px 0;
+}
+
+.product-action .btn {
+  width: 242px;
+  height: 50px;
+  padding: 17px;
+}
+
+.order {
+  padding: 120px 0 115px 0;
+  overflow: hidden;
+}
+
+.order .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.order-text {
+  max-width: 384px;
+}
+
+.order-text-title {
+  font-size: 35px;
+  font-family: MullerExtraBold, sans-serif;
+  margin-bottom: 65px;
+}
+
+.order-text-message {
+  font-size: 16px;
+  color: rgb(185, 145, 80);
+  line-height: 1.5;
+}
+
+.order-form {
+  margin-left: 122px;
+  max-width: 330px;
+}
+
+.order-input {
+  border-width: 1px;
+  border-color: rgb(185, 145, 80);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  width: 330px;
+  height: 58px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: rgb(115, 84, 43);
+  padding: 23px 22px 24px 22px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.order-input::placeholder {
+  color: rgb(203, 168, 110);
+}
+
+.order .btn {
+  width: 330px;
+  height: 60px;
+}
+
+.order-image {
+  width: 282px;
+  position: relative;
+  margin-left: 78px;
+}
+
+.order-image img {
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+}
+
+
+.hvr-sweep-to-right:before {
+  background-color: #b07703;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.parallax-window {
+  min-height: 600px;
+  background: transparent;
+}
+
+.cookie {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  max-width: 330px;
+  display: none;
+}
+
+.cookie-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: MullerBold, sans-serif;
+}
+
+.cookie-title span {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.cookie-text {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.cookie-button .btn {
+  border: 0;
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1229px) {
+  .main-image {
+    width: 400px;
+  }
+
+  .main-image img {
+    max-width: 100%;
+  }
+
+  .products-items {
+    justify-content: center;
+  }
+
+  .product {
+    margin: 12px;
+  }
+
+  .order-form {
+    margin-left: 45px;
+  }
+
+  .order .container {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .main .container {
+    flex-direction: column;
+
+  }
+  .main-image {
+    order: 1;
+  }
+  .main-info {
+    order: 2;
+  }
+
+  .main {
+    padding-top: 70px;
+  }
+
+  .main-info h1 {
+    text-align: center;
+  }
+
+  .main-action {
+    text-align: center;
+  }
+
+  .products {
+    padding-bottom: 40px;
+  }
+
+  .order {
+    padding-top: 60px;
+    position: relative;
+  }
+
+  .order-image {
+    position: absolute;
+    z-index: -1;
+    right: calc(50% - 400px);
+  }
+
+  .order-image img {
+    position: relative;
+  }
+
+  .order .container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-info h1 {
+    line-height: 45px;
+  }
+  .main-advantages {
+    /*max-width: 306px;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .order .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .order-text-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .order-text-message {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .order-form {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .main-advantages {
+    max-width: 306px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .main-image {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 374px) {
+  .main-info h1 {
+    font-size: 38px;
+  }
+
+  .order-input {
+    width: 290px;
+  }
+
+  .order .btn {
+    width: 290px;
+  }
+
+  .order-form {
+    text-align: center;
+  }
+  .order {
+    margin-left: 20px;
+  }
+}
