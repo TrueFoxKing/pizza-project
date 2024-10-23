@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component} from "@angular/core";
 import {ProductType} from "./types/product.type";
 
 @Component({
@@ -8,7 +8,7 @@ import {ProductType} from "./types/product.type";
 })
 export class AppComponent {
 
-  public products: ProductType[] = [
+   products: ProductType[] = [
     {
       image: 'pizza1.png',
       title: 'Мясная Делюкс',
@@ -51,22 +51,23 @@ export class AppComponent {
     },
   ];
 
-  public formValues = {
+   formValues = {
     productTitle: '',
     address: '',
     phone: '',
   }
 
-  public scrollTo(target: HTMLElement): void {
+   scrollTo(target: HTMLElement): void {
     target.scrollIntoView({behavior: "smooth"});
   }
 
-  public addToCard(product: ProductType, target: HTMLElement): void {
+   addToCard(title: string, target: HTMLElement): void {
     this.scrollTo(target);
-    this.formValues.productTitle = product.title
+    this.formValues.productTitle = title;
+    this.products = this.products.filter(item => item.title.toUpperCase() !== title.toUpperCase());
   }
 
-  public createOrder() {
+   createOrder() {
 
     if (!this.formValues.productTitle) {
       alert('Выберете пиццу');

@@ -28,6 +28,23 @@ body {
   margin: 0 auto;
 }
 
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: rgb(255, 175, 24);
+  width: 224px;
+  height: 60px;
+  padding: 22px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: MullerBold, sans-serif;
+  color: rgb(56, 36, 0);
+  text-decoration: none;
+  text-align: center;
+}
+
 @media screen and (max-width: 1229px) {
   .container {
     padding-left: 15px;
